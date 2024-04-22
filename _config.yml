@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Boris's Homepage"
 title_separator          : "-"
-name                     : &name "Boris Meinardus"
+name                     : &name "Boris kalonji"
 description              : &description "personal description"
 url                      : https://sudo-Boris.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
