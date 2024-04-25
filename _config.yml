@@ -80,11 +80,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Boris Meinardus"
-  avatar           : "Profile_pic2.png"
-  bio              : "Multi-Modal Learning \n under Prof. Marcus Rohrbach"
-  location         : "Berlin/ Darmstadt, Germany"
-  employer         : "TU Darmstadt"
+  name             : "Fabrizio Melges Ferro"
+  avatar           : "sunset.png"
+  bio              : "Physics"
+  location         : "Chicago, USA"
+  employer         : "University of Chicago"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=UMKkDVwAAAAJ"
   email            : "boris.meinardus00@gmail.com"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "sudo-Boris"
+  github           : "FabrizioFerro"
   google_plus      :
   keybase          :
   instagram        :
