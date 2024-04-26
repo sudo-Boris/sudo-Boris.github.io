@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "Fabrizio Melges Ferro"
-  avatar           : "sunset.png"
+  avatar           : "sunset.jpg"
   bio              : "Physics"
   location         : "Chicago, USA"
   employer         : "University of Chicago"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=UMKkDVwAAAAJ"
-  email            : "boris.meinardus00@gmail.com"
+  googlescholar    :
+  email            : "fferro@uchicago.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -102,18 +102,18 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "boris-meinardus-ba2302177"
+  linkedin         :
   orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "BorisMeinardus"
+  twitter          :
   vine             :
   weibo            :
   xing             :
-  youtube          : "@borismeinardus"
+  youtube          :
   wikipedia        :
 
 
