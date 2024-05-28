@@ -11,9 +11,9 @@ title                    : "Boris's Homepage"
 title_separator          : "-"
 name                     : &name "Boris Meinardus"
 description              : &description "personal description"
-url                      : https://sudo-Boris.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://engineermac.github.io/cormac.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "sudo-Boris/sudo-Boris.github.io"
+repository               : "EngineerMac/cormac.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,8 +80,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Boris Meinardus"
-  avatar           : "Profile_pic2.png"
+  name             : "Cormac McCumiskey"
+  avatar           : "profile_pic3.png"
   bio              : "Multi-Modal Learning \n under Prof. Marcus Rohrbach"
   location         : "Berlin/ Darmstadt, Germany"
   employer         : "TU Darmstadt"
