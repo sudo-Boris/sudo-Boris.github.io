@@ -22,7 +22,7 @@ redirect_from:
 # Selected Experience
 
 ## 📜 Research experience
-I trained a Deep Learning 
+I trained a Deep Learning model
 
 To accompany this work, I have submitted a blog post to the **ICLR** Blogposts Track communicating the paper's theory and my results.
 
