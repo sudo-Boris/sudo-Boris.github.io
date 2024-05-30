@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-
+#About Me 
 
 👨🏻‍💻 I have an MEng degree in General Engineering from Durham University.
 
@@ -17,7 +17,6 @@ redirect_from:
 
 📚 I am currently an **Internship-Researcher** at Durham Univeristy, continuing to scale my Deep-Learning Model.
 
- I
 
 # Selected Experience
 
@@ -35,8 +34,7 @@ There I worked on dynamic traffic flow forecasting using Graph Neural Networks.
 
 ## 📚 Education
 MEng General Engineering 2024, Durham University.
-A-levels: 2A*, 2A.
-GCSE: 9A*, A.
+
 
 
 
