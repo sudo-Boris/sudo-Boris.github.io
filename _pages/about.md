@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-#About Me 
+# About Me 
 
 👨🏻‍💻 I have an MEng degree in General Engineering from Durham University.
 
