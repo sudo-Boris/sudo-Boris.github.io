@@ -8,26 +8,24 @@ redirect_from:
   - /about.html
 ---
 
+👨🏻‍💻 I have an **MEng degree in General Engineering** from Durham University. I specialised in Mechanical Engineering.
 
-
-
-👨🏻‍💻 I have an MEng degree in General Engineering from Durham University. I specialised in Mechanical Engineering.
-
-🔬 I have research experience in applied AI and I am particulary interested in the intersection of engineering and AI.
+🔬 I have research experience in developing a **Deep Learning Model to do Computational Fluid Dynamics**.
 
 📚 I am currently an **Internship-Researcher** at Durham Univeristy, continuing to scale my Deep-Learning Model.
 
-👨🏻‍🔬 I will be joining PwC where I will continue to pursue my interest in AI.
+👨🏻‍🔬 I will be joining **PwC** where I will continue to pursue my interest in applied AI.
 
 
-# Selected Experience
 
 ## 📜 Research experience
-I trained a Deep Learning model
+I generated training data using Ansys Fluent Fluid simulations on my Universities supercomputer for rooms with different airflow characteristics. Eeach simulation took 5 hours.
 
-To accompany this work, I have submitted a blog post to the **ICLR** Blogposts Track communicating the paper's theory and my results.
+I used novel techniques to lay the foundation for a generalisable AI to replicate the results of CFD in less that one second to less than 5% Mean Absolute Percentage Error.
 
-Feel free to look at my specific [portfolio entry](https://sudo-boris.github.io/portfolio/RCPPO/).
+I am contiung my work as an Internship research at Durham University. I plan to use SQL to create a scalable dataframe and apply techniques to down-sample the quatity of data whilst retaining important information.
+
+Feel free to look at my dissertation paper [portfolio entry](https://EngineerMac/portfolio/RCPPO/).
 
 ## 👨🏻‍🔬 Work
 Currently I am working as a **Student Researcher** at the Reliable Multimodal AI Lab at the TU Darmstadt under the supervision of Prof. Marcus Rohrbach working on **Generative Video-Language Modelling**.
