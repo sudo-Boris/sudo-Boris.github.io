@@ -9,13 +9,15 @@ redirect_from:
 ---
 
 
-# About Me 
 
-👨🏻‍💻 I have an MEng degree in General Engineering from Durham University.
+
+👨🏻‍💻 I have an MEng degree in General Engineering from Durham University. I specialised in Mechanical Engineering.
 
 🔬 I have research experience in applied AI and I am particulary interested in the intersection of engineering and AI.
 
 📚 I am currently an **Internship-Researcher** at Durham Univeristy, continuing to scale my Deep-Learning Model.
+
+👨🏻‍🔬 I will be joining PwC where I will continue to pursue my interest in AI.
 
 
 # Selected Experience
