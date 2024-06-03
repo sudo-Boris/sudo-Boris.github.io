@@ -25,10 +25,10 @@ I used novel techniques to lay the foundation for a generalisable AI to replicat
 
 I am contiung my work as an Internship research at Durham University. I plan to use SQL to create a scalable dataframe and apply techniques to down-sample the quatity of data whilst retaining important information.
 
-Feel free to look at my dissertation paper [portfolio entry](https://EngineerMac/portfolio/RCPPO/).
+Feel free to look at my dissertation paper [portfolio entry](https://engineermac.github.io/portfolio/RCPPO/).
 
 ## 👨🏻‍🔬 Work
-Currently I am working as a **Student Researcher** at the Reliable Multimodal AI Lab at the TU Darmstadt under the supervision of Prof. Marcus Rohrbach working on **Generative Video-Language Modelling**.
+Currently I am working as a **Student Researcher** at Durham Univeris
 Additionally, I have professional experience working as an **Applied Machine Learning Student Researcher** at the Fraunhofer Heinrich Hertz Institute. \
 There I worked on dynamic traffic flow forecasting using Graph Neural Networks.
 
