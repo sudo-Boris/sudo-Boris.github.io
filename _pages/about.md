@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👋🏼 Hello there, I'm Boris!"
+title: "About Me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,38 +8,34 @@ redirect_from:
   - /about.html
 ---
 
+👨🏻‍💻 I have an **MEng degree in General Engineering** from Durham University. I specialised in Mechanical Engineering.
+
+🔬 I have research experience in developing a **Deep Learning Model to do Computational Fluid Dynamics**.
+
+📚 I am currently an **Internship-Researcher** at Durham Univeristy, continuing to scale my Deep-Learning Model.
+
+👨🏻‍🔬 I will be joining **PwC** where I will continue to pursue my interest in applied AI.
 
 
-![Illustration of combining vision and language modalities](/images/image_to_text_vis.png){: .align-right width="300px"}
-👨🏻‍💻 I'm a final year graduate student at the TU Berlin.
 
-🔬 My research interests are in bridging vision and language modalities and Self-Supervised Learning!
+## 📜 Research experience
+I generated training data using Ansys Fluent Fluid simulations on my Universities supercomputer for rooms with different airflow characteristics. Eeach simulation took 5 hours.
 
-📚 I'm currently working towards my Master's Thesis in the field of Vision-Language-Modelling.
+I used novel techniques to lay the foundation for a generalisable AI to replicate the results of CFD in less that one second to less than 5% Mean Absolute Percentage Error.
 
-📽️ I am also interested in assisting others on their path in the world of Machine Learning and academia.
+I am contiung my work as an Internship research at Durham University. I plan to use SQL to create a scalable dataframe and apply techniques to down-sample the quatity of data whilst retaining important information.
 
-# Selected Experience
+Feel free to look at my dissertation paper [portfolio entry](https://engineermac.github.io/portfolio/RCPPO/).
 
-## 🤖 Open Source Contributions
-I have experience contributing to [Arena Bench](https://github.com/Arena-Rosnav) a large open-source project for robotic obstacle avoidance using Deep Reinforcement Learning.
-
-Moreover, I have published a [respective paper](https://sudo-boris.github.io/publication/2022-Arena-Bench) at the IROS conference and in the Robotics and Automation Letters (RA-L) journal.
-
-## 📜 Reimplementing and Reproducing Papers
-I have experience with independent research. I have implemented the Reward Constrained Policy Optimization paper into stable-baselines3 PPO and reproduced the original results by running and tracking experiments.
-
-To accompany this work, I have submitted a blog post to the **ICLR** Blogposts Track communicating the paper's theory and my results.
-
-Feel free to look at my specific [portfolio entry](https://sudo-boris.github.io/portfolio/RCPPO/).
-
-## 👨🏻‍🔬 Professional Experience
-Currently I am working as a **Student Researcher** at the Reliable Multimodal AI Lab at the TU Darmstadt under the supervision of Prof. Marcus Rohrbach working on **Generative Video-Language Modelling**.
+## 👨🏻‍🔬 Work
+Currently I am working as a **Student Researcher** at Durham Univeris
 Additionally, I have professional experience working as an **Applied Machine Learning Student Researcher** at the Fraunhofer Heinrich Hertz Institute. \
 There I worked on dynamic traffic flow forecasting using Graph Neural Networks.
 
-## 📚 Teaching and Community Contributions
-To further contribute to the Machine Learning community, I have a [YouTube](https://www.youtube.com/@borismeinardus) and [Medium](https://medium.com/@boris.meinardus) channel where I publish educational Machine Learning content.
+## 📚 Education
+MEng General Engineering 2024, Durham University.
+
+
 
 
 
