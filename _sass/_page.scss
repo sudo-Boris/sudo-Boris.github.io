@@ -399,3 +399,32 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* collapsible older News items */
+
+.news-more {
+  margin-bottom: 1em;
+
+  summary {
+    cursor: pointer;
+    color: $link-color;
+    font-size: $type-size-6;
+    font-weight: bold;
+  }
+
+  &__close {
+    display: none;
+  }
+
+  &[open] summary {
+    margin-bottom: 0.5em;
+  }
+
+  &[open] &__open {
+    display: none;
+  }
+
+  &[open] &__close {
+    display: inline;
+  }
+}

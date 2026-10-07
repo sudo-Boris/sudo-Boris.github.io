@@ -5,15 +5,16 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+
 # Site Settings
 locale                   : "en-US"
-title                    : "Boris's Homepage"
-title_separator          : "-"
-name                     : &name "Boris Meinardus"
-description              : &description "personal description"
-url                      : https://sudo-Boris.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+title                    : "Humaira Kousar"
+title_separator          : "|"
+name                     : &name "Humaira Kousar"
+description              : &description "Humaira Kousar, Ph.D. researcher at KAIST working on efficient deep learning: data selection, active learning, federated learning, and model merging."
+url                      : https://humaira-kousar.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "sudo-Boris/sudo-Boris.github.io"
+repository               : "humaira-kousar/humaira-kousar.github.io" 
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -29,7 +30,7 @@ comments:
   facebook:
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "dark" # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
@@ -62,32 +63,37 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "Humaira2.jpg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://www.linkedin.com/in/humaira-kousar-32b775136/"
+    - "https://github.com/humaira-kousar"
+    - "https://scholar.google.com/citations?user=m0X7B_IAAAAJ"
+    - "https://openreview.net/profile?id=~Humaira_Kousar1"
 
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
 
 # Site Author
 author:
-  name             : "Boris Meinardus"
-  avatar           : "Profile_pic2.png"
-  bio              : "Openendedness at Sakana AI"
-  location         : "Tokyo, Japan"
-  employer         : "Sakana AI"
+  name             : "Humaira Kousar"
+  avatar           : "Humaira2.jpg"
+  bio              : "Ph.D. Candidate at KAIST"
+  location         : "Daejeon, South Korea"
+  employer         : "KAIST"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=UMKkDVwAAAAJ"
-  email            : "boris.meinardus00@gmail.com"
+  googlescholar    : "https://scholar.google.com/citations?user=m0X7B_IAAAAJ&hl=en"
+  openreview       : "https://openreview.net/profile?id=~Humaira_Kousar1"
+  email            : "humairakousar32@kaist.ac.kr"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,24 +102,24 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "sudo-Boris"
+  github           : "humaira-kousar"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "boris-meinardus-ba2302177"
+  linkedin         : "humaira-kousar-32b775136/"
   orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "BorisMeinardus"
+  twitter          : #"BorisMeinardus"
   vine             :
   weibo            :
   xing             :
-  youtube          : "@borismeinardus"
+  youtube          : #"@borismeinardus"
   wikipedia        :
 
 

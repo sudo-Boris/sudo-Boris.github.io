@@ -1,0 +1,171 @@
+/* ==========================================================================
+   DARK MODE
+   ========================================================================== */
+
+// Lay the masthead out as a row so the toggle sits beside the nav
+// (and its mobile menu button) instead of floating on top of it.
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.masthead__menu {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.theme-toggle-btn {
+  flex: 0 0 auto;
+  margin-left: 0.75em;
+  width: 2.25em;
+  height: 2.25em;
+  padding: 0;
+  border: 1px solid $border-color;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  line-height: 1;
+  transition: $global-transition;
+
+  &:hover {
+    background-color: $lighter-gray;
+  }
+}
+
+html[data-theme="dark"] {
+  background-color: #1b1b1b;
+
+  body {
+    background-color: #1b1b1b;
+    color: #d8d8d8;
+  }
+
+  a {
+    color: #7fd1e0;
+
+    &:hover {
+      color: #a6e2ee;
+    }
+  }
+
+  .page__content,
+  .page__hero,
+  .page__hero--overlay,
+  .archive,
+  .archive__item-excerpt {
+    color: #d8d8d8;
+  }
+
+  .masthead {
+    background-color: #161616;
+    border-bottom-color: #2e2e2e;
+  }
+
+  .masthead__menu-item a,
+  .greedy-nav a {
+    color: #d8d8d8;
+  }
+
+  .greedy-nav {
+    background: #161616;
+
+    .hidden-links {
+      background: #1f1f1f;
+      border-color: #3a3a3a;
+
+      a {
+        color: #d8d8d8;
+      }
+    }
+  }
+
+  .theme-toggle-btn {
+    background-color: #2a2a2a;
+    border-color: #3a3a3a;
+
+    &:hover {
+      background-color: #333;
+    }
+  }
+
+  .sidebar {
+    background-color: transparent;
+    color: #d8d8d8;
+
+    .author__name,
+    .author__bio,
+    .author__urls-wrapper {
+      color: #d8d8d8;
+    }
+
+    a {
+      color: #7fd1e0;
+    }
+  }
+
+  .page__footer,
+  .site-footer {
+    background-color: #161616;
+    color: #a8a8a8;
+  }
+
+  pre,
+  code {
+    background-color: #2a2a2a;
+    color: #e6e6e6;
+  }
+
+  hr {
+    border-color: #2e2e2e;
+  }
+
+  .toc {
+    background-color: #1f1f1f;
+    border-color: #3a3a3a;
+    color: #d8d8d8;
+
+    a {
+      color: #d8d8d8;
+    }
+  }
+
+  input,
+  textarea,
+  select {
+    background-color: #2a2a2a;
+    color: #d8d8d8;
+    border-color: #3a3a3a;
+  }
+
+  .btn--glass {
+    color: #d8d8d8 !important;
+    background-color: #2a2a2a;
+    border-color: #6a6a6a !important;
+
+    &:hover {
+      color: #fff !important;
+      background-color: #333;
+    }
+  }
+
+  .news-more summary {
+    color: #7fd1e0;
+  }
+
+  .venue-tag {
+    color: #7fd1e0;
+    background-color: rgba(127, 209, 224, 0.12);
+    border-color: rgba(127, 209, 224, 0.35);
+  }
+
+  .btn--glass-gold {
+    color: #ffd54f !important;
+    background-color: rgba(255, 213, 79, 0.12);
+    border-color: rgba(255, 213, 79, 0.35) !important;
+
+    &:hover {
+      background-color: rgba(255, 213, 79, 0.2);
+    }
+  }
+}

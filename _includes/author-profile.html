@@ -6,14 +6,16 @@
 
 <div itemscope itemtype="http://schema.org/Person">
 
+      {% if author.avatar %}
       <div class="author__avatar">
             {% if author.avatar contains "://" %}
             <img src="{{ author.avatar }}" alt="{{ author.name }}">
             {% else %}
-            <img src="{{ author.avatar | prepend: " /images/" | prepend: base_path }}" class="author__avatar"
+            <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar"
                   alt="{{ author.name }}">
             {% endif %}
       </div>
+      {% endif %}
 
       <div class="author__content">
             <h3 class="author__name">{{ author.name }}</h3>
@@ -27,7 +29,7 @@
                   <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
                   {% endif %}
                   {% if author.employer %}
-                  <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
+                  <li><i class="fas fa-fw fa-building" aria-hidden="true"></i> {{ author.employer }}</li>
                   {% endif %}
                   {% if author.uri %}
                   <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{
@@ -140,6 +142,9 @@
                   {% if author.googlescholar %}
                   <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google
                               Scholar</a></li>
+                  {% endif %}
+                  {% if author.openreview %}
+                  <li><a href="{{ author.openreview }}"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i> OpenReview</a></li>
                   {% endif %}
                   {% if author.pubmed %}
                   <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>

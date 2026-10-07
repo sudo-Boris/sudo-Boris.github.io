@@ -2,14 +2,36 @@
 main:
   - title: "CV"
     # url: /cv/
-    url: /files/Resume.pdf
+    url: /files/Updated CV - Humaira.pdf
 
-  - title: "Portfolio"
-    url: /portfolio/
-  
+  - title: "News"
+    url: /#news
+
+  - title: "Awards"
+    url: /#awards
+
   - title: "Publications"
-    url: /publications/
-    # url: https://scholar.google.es/citations?user=xxxxxxxx=en
+    url: /#publications
+
+  - title: "Projects"
+    url: /#projects
+
+  - title: "Patents"
+    url: /#patents
+
+  - title: "Academic Services"
+    url: /#academic-services
+
+  # - title: "Portfolio"
+  #   url: /portfolio/
+  
+  # - title: "Publications"
+  #   url: /publications/
+    # url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=m0X7B_IAAAAJ&citation_for_view=m0X7B_IAAAAJ:2osOgNQ5qMEC
+    # url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=m0X7B_IAAAAJ&citation_for_view=m0X7B_IAAAAJ:IjCSPb-OGe4C
+    # url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=m0X7B_IAAAAJ&citation_for_view=m0X7B_IAAAAJ:u5HHmVD_uO8C
+    # url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=m0X7B_IAAAAJ&citation_for_view=m0X7B_IAAAAJ:d1gkVwhDpl0C
+    
         
   # - title: "Blog Posts"
   #   url: /year-archive/

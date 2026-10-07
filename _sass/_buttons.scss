@@ -16,7 +16,7 @@
   font-size: $type-size-6;
   font-weight: bold;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none !important;
   background-color: $primary-color;
   border: 0 !important;
   border-radius: $border-radius;
@@ -150,4 +150,50 @@
   &--small {
     font-size: $type-size-7;
   }
+
+  /* white tab with a gray boundary */
+
+  &--glass {
+    color: $text-color !important;
+    background-color: #fff;
+    border: 1px solid $light-gray !important;
+    box-shadow: none;
+
+    &:hover {
+      color: $text-color !important;
+      background-color: $lighter-gray;
+    }
+  }
+
+  /* frosted glass effect, gold tint (for highlights/spotlights) */
+
+  &--glass-gold {
+    color: #b8860b !important;
+    background-color: rgba(255, 193, 7, 0.18);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 193, 7, 0.5) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+
+    &:hover {
+      background-color: rgba(255, 193, 7, 0.3);
+    }
+  }
+}
+/* short venue label shown before each publication title */
+
+.venue-tag {
+  display: inline-block;
+  min-width: 6.5em;
+  margin-right: 0.5em;
+  padding: 0.1em 0.5em;
+  font-family: $sans-serif;
+  font-size: $type-size-7;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: 0.1em;
+  color: #1f5fa8;
+  background-color: #e8f1fb;
+  border: 1px solid #b9d3f0;
+  border-radius: $border-radius;
 }
